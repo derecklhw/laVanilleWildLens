@@ -1,0 +1,11 @@
+Model Information:
+* title:	Pupa of Hypna clytemnestra
+* source:	https://sketchfab.com/3d-models/pupa-of-hypna-clytemnestra-f0708800f9c94a808d9a585db164854f
+* author:	Digital Archive of Natural History (DiNArDa) (https://sketchfab.com/disc3d)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Pupa of Hypna clytemnestra" (https://sketchfab.com/3d-models/pupa-of-hypna-clytemnestra-f0708800f9c94a808d9a585db164854f) by Digital Archive of Natural History (DiNArDa) (https://sketchfab.com/disc3d) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
