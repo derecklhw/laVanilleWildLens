@@ -1,0 +1,11 @@
+Model Information:
+* title:	Stealth Wasp
+* source:	https://sketchfab.com/3d-models/stealth-wasp-44f74b8450fc41eda323a392bfe09228
+* author:	ArachnoBoy (https://sketchfab.com/vang807)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Stealth Wasp" (https://sketchfab.com/3d-models/stealth-wasp-44f74b8450fc41eda323a392bfe09228) by ArachnoBoy (https://sketchfab.com/vang807) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
