@@ -1,0 +1,11 @@
+Model Information:
+* title:	Caterpillar_021220
+* source:	https://sketchfab.com/3d-models/caterpillar-021220-3bdeacf8911544a58fbd00035ae3f165
+* author:	3D Error 404 (https://sketchfab.com/3DError404)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Caterpillar_021220" (https://sketchfab.com/3d-models/caterpillar-021220-3bdeacf8911544a58fbd00035ae3f165) by 3D Error 404 (https://sketchfab.com/3DError404) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
