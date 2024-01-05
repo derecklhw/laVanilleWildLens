@@ -123,145 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &59114914
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 59114918}
-  - component: {fileID: 59114917}
-  - component: {fileID: 59114916}
-  - component: {fileID: 59114915}
-  m_Layer: 0
-  m_Name: SCORPION_ModelTarget
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &59114915
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 59114914}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 59114917}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: scorpion
-  mDatasetName: Vuforia/laVanilleWildLens.xml
-  mCastedBehaviour: {fileID: 59114917}
-  mModelScale: {x: 0.09114601, y: 0.012752, z: 0.110247}
-  mModelTargetPreview: {fileID: 0}
---- !u!114 &59114916
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 59114914}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  StatusFilter: 1
-  UsePoseSmoothing: 0
-  AnimationCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 3.3333333
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 0.3
-      value: 1
-      inSlope: 3.3333333
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  OnTargetFound:
-    m_PersistentCalls:
-      m_Calls: []
-  OnTargetLost:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &59114917
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 59114914}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -75151077, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PreviewVisible: 1
-  RuntimeOcclusion: 0
-  RuntimeCollider: 0
-  mTrackableName: scorpion
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/laVanilleWildLens.xml
-  mBaseSize: 0.09114601
-  mAspectRatioXY: 0.13990739
-  mAspectRatioXZ: 1.2095648
-  mShowBoundingBox: 0
-  mOverrideSnappingPose: 0
-  mBBoxMin: {x: -0.020739, y: 0.014395, z: -0.044648}
-  mBBoxMax: {x: 0.070407, y: 0.027147, z: 0.065599}
-  mPreviewImage: {fileID: 0}
-  mLength: 0.09114601
-  mWidth: 0.012752
-  mHeight: 0.110247
-  m3DGuideViewModel: {fileID: 0}
-  m2DGuideViewImage: {fileID: 0}
-  mGuideViewDisplayMode: 0
-  m2DGuideViewMaterial: {fileID: 0}
-  m3DGuideViewMaterial: {fileID: 0}
-  mSelectedGuideView: 
-  mMotionHint: 1
-  mTrackingMode: 2
-  mTrackingOptimization: 0
-  mTrackingOptimizationNeedsUpgrade: 0
-  mHasRealisticTextures: 1
-  mPreview: {fileID: 59114915}
-  mAutoValidationDataSetName: 
---- !u!4 &59114918
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 59114914}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.39, y: -0.42098, z: -4.43}
-  m_LocalScale: {x: 21.267054, y: 21.267054, z: 21.267054}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &115584399
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -452,6 +313,146 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vec: {x: 0, y: 20, z: 0}
+--- !u!1 &447654027
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 447654030}
+  - component: {fileID: 447654029}
+  - component: {fileID: 447654028}
+  - component: {fileID: 447654031}
+  m_Layer: 0
+  m_Name: CROCODILE_ModelTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &447654028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447654027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StatusFilter: 1
+  UsePoseSmoothing: 0
+  AnimationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 3.3333333
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.3
+      value: 1
+      inSlope: 3.3333333
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  OnTargetFound:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTargetLost:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &447654029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447654027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -75151077, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PreviewVisible: 1
+  RuntimeOcclusion: 0
+  RuntimeCollider: 0
+  mTrackableName: Crocodile
+  mInitializedInEditor: 1
+  mDataSetPath: Vuforia/laVanilleWildLens.xml
+  mBaseSize: 0.123529
+  mAspectRatioXY: 0.5928324
+  mAspectRatioXZ: 2.2247486
+  mShowBoundingBox: 0
+  mOverrideSnappingPose: 0
+  mBBoxMin: {x: -0.064294, y: 0.097589, z: -0.128348}
+  mBBoxMax: {x: 0.059235, y: 0.170821, z: 0.146473}
+  mPreviewImage: {fileID: 0}
+  mLength: 0.123529
+  mWidth: 0.073231995
+  mHeight: 0.27482098
+  m3DGuideViewModel: {fileID: 0}
+  m2DGuideViewImage: {fileID: 0}
+  mGuideViewDisplayMode: 0
+  m2DGuideViewMaterial: {fileID: 0}
+  m3DGuideViewMaterial: {fileID: 0}
+  mSelectedGuideView: 
+  mMotionHint: 1
+  mTrackingMode: 2
+  mTrackingOptimization: 0
+  mTrackingOptimizationNeedsUpgrade: 0
+  mHasRealisticTextures: 1
+  mPreview: {fileID: 447654031}
+  mAutoValidationDataSetName: 
+--- !u!4 &447654030
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447654027}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0.01, y: 0, z: -4.27}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 642147293}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &447654031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447654027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 447654029}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Crocodile
+  mDatasetName: Vuforia/laVanilleWildLens.xml
+  mCastedBehaviour: {fileID: 447654029}
+  mModelScale: {x: 0.123529, y: 0.073231995, z: 0.27482098}
+  mModelTargetPreview: {fileID: 0}
 --- !u!1 &539386551
 GameObject:
   m_ObjectHideFlags: 0
@@ -572,6 +573,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &642147293 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4322942925247713777, guid: 5e10c948ff2b649bcbe7b0e59295feaf, type: 3}
+  m_PrefabInstance: {fileID: 1713795718}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &669378048
 GameObject:
   m_ObjectHideFlags: 0
@@ -1612,6 +1618,75 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 790308353}
   m_SourcePrefab: {fileID: 100100000, guid: edea67108214a4b229e3539540562720, type: 3}
+--- !u!1001 &1629266085
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1952612186}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 5fa1f341182d7459fa37d3868ad70d92, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 7.6231904
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5fa1f341182d7459fa37d3868ad70d92, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 7.62319
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5fa1f341182d7459fa37d3868ad70d92, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7.62319
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5fa1f341182d7459fa37d3868ad70d92, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.011300087
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5fa1f341182d7459fa37d3868ad70d92, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5fa1f341182d7459fa37d3868ad70d92, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.011899948
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5fa1f341182d7459fa37d3868ad70d92, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.24837652
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5fa1f341182d7459fa37d3868ad70d92, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.24837656
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5fa1f341182d7459fa37d3868ad70d92, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.66204923
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5fa1f341182d7459fa37d3868ad70d92, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.6620491
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5fa1f341182d7459fa37d3868ad70d92, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5fa1f341182d7459fa37d3868ad70d92, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5fa1f341182d7459fa37d3868ad70d92, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 138.871
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5fa1f341182d7459fa37d3868ad70d92, type: 3}
+      propertyPath: m_Name
+      value: Scorpion
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5fa1f341182d7459fa37d3868ad70d92, type: 3}
 --- !u!1 &1650789187
 GameObject:
   m_ObjectHideFlags: 0
@@ -1785,145 +1860,75 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0.28904957}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1686598806
-GameObject:
+--- !u!1001 &1713795718
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1686598810}
-  - component: {fileID: 1686598809}
-  - component: {fileID: 1686598808}
-  - component: {fileID: 1686598807}
-  m_Layer: 0
-  m_Name: CROCODILE_ModelTarget
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1686598807
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1686598806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1686598809}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Crocodile
-  mDatasetName: Vuforia/laVanilleWildLens.xml
-  mCastedBehaviour: {fileID: 1686598809}
-  mModelScale: {x: 0.123529, y: 0.073231995, z: 0.27482098}
-  mModelTargetPreview: {fileID: 0}
---- !u!114 &1686598808
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1686598806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  StatusFilter: 1
-  UsePoseSmoothing: 0
-  AnimationCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 3.3333333
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 0.3
-      value: 1
-      inSlope: 3.3333333
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  OnTargetFound:
-    m_PersistentCalls:
-      m_Calls: []
-  OnTargetLost:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &1686598809
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1686598806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -75151077, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PreviewVisible: 1
-  RuntimeOcclusion: 0
-  RuntimeCollider: 0
-  mTrackableName: Crocodile
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/laVanilleWildLens.xml
-  mBaseSize: 0.123529
-  mAspectRatioXY: 0.5928324
-  mAspectRatioXZ: 2.2247486
-  mShowBoundingBox: 0
-  mOverrideSnappingPose: 0
-  mBBoxMin: {x: -0.064294, y: 0.097589, z: -0.128348}
-  mBBoxMax: {x: 0.059235, y: 0.170821, z: 0.146473}
-  mPreviewImage: {fileID: 0}
-  mLength: 0.123529
-  mWidth: 0.073231995
-  mHeight: 0.27482098
-  m3DGuideViewModel: {fileID: 0}
-  m2DGuideViewImage: {fileID: 0}
-  mGuideViewDisplayMode: 0
-  m2DGuideViewMaterial: {fileID: 0}
-  m3DGuideViewMaterial: {fileID: 0}
-  mSelectedGuideView: 
-  mMotionHint: 1
-  mTrackingMode: 2
-  mTrackingOptimization: 0
-  mTrackingOptimizationNeedsUpgrade: 0
-  mHasRealisticTextures: 1
-  mPreview: {fileID: 1686598807}
-  mAutoValidationDataSetName: 
---- !u!4 &1686598810
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1686598806}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.20533, y: -1.5598, z: -3.9694}
-  m_LocalScale: {x: 12.622652, y: 12.622652, z: 12.622652}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 447654030}
+    m_Modifications:
+    - target: {fileID: 3488453392049977586, guid: 5e10c948ff2b649bcbe7b0e59295feaf, type: 3}
+      propertyPath: m_Name
+      value: CrocodileSkull
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322942925247713777, guid: 5e10c948ff2b649bcbe7b0e59295feaf, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.00010817207
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322942925247713777, guid: 5e10c948ff2b649bcbe7b0e59295feaf, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.00010817206
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322942925247713777, guid: 5e10c948ff2b649bcbe7b0e59295feaf, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.00010817208
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322942925247713777, guid: 5e10c948ff2b649bcbe7b0e59295feaf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0044
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322942925247713777, guid: 5e10c948ff2b649bcbe7b0e59295feaf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1579
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322942925247713777, guid: 5e10c948ff2b649bcbe7b0e59295feaf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1095
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322942925247713777, guid: 5e10c948ff2b649bcbe7b0e59295feaf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7168213
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322942925247713777, guid: 5e10c948ff2b649bcbe7b0e59295feaf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.20383698
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322942925247713777, guid: 5e10c948ff2b649bcbe7b0e59295feaf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6413695
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322942925247713777, guid: 5e10c948ff2b649bcbe7b0e59295feaf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.18238136
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322942925247713777, guid: 5e10c948ff2b649bcbe7b0e59295feaf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -3.341
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322942925247713777, guid: 5e10c948ff2b649bcbe7b0e59295feaf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -84.586
+      objectReference: {fileID: 0}
+    - target: {fileID: 4322942925247713777, guid: 5e10c948ff2b649bcbe7b0e59295feaf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 31.59
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e10c948ff2b649bcbe7b0e59295feaf, type: 3}
 --- !u!1001 &1713964592
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2065,6 +2070,151 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9cb75038d2a140d39868c4a22dbb089, type: 3}
+--- !u!4 &1918120471 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5fa1f341182d7459fa37d3868ad70d92, type: 3}
+  m_PrefabInstance: {fileID: 1629266085}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1952612183
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1952612186}
+  - component: {fileID: 1952612185}
+  - component: {fileID: 1952612184}
+  - component: {fileID: 1952612187}
+  m_Layer: 0
+  m_Name: SCORPION_ModelTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1952612184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952612183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StatusFilter: 1
+  UsePoseSmoothing: 0
+  AnimationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 3.3333333
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.3
+      value: 1
+      inSlope: 3.3333333
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  OnTargetFound:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTargetLost:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1952612185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952612183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -75151077, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PreviewVisible: 1
+  RuntimeOcclusion: 0
+  RuntimeCollider: 0
+  mTrackableName: scorpion
+  mInitializedInEditor: 1
+  mDataSetPath: Vuforia/laVanilleWildLens.xml
+  mBaseSize: 0.09114601
+  mAspectRatioXY: 0.13990739
+  mAspectRatioXZ: 1.2095648
+  mShowBoundingBox: 0
+  mOverrideSnappingPose: 0
+  mBBoxMin: {x: -0.020739, y: 0.014395, z: -0.044648}
+  mBBoxMax: {x: 0.070407, y: 0.027147, z: 0.065599}
+  mPreviewImage: {fileID: 0}
+  mLength: 0.09114601
+  mWidth: 0.012752
+  mHeight: 0.110247
+  m3DGuideViewModel: {fileID: 0}
+  m2DGuideViewImage: {fileID: 0}
+  mGuideViewDisplayMode: 0
+  m2DGuideViewMaterial: {fileID: 0}
+  m3DGuideViewMaterial: {fileID: 0}
+  mSelectedGuideView: 
+  mMotionHint: 1
+  mTrackingMode: 2
+  mTrackingOptimization: 0
+  mTrackingOptimizationNeedsUpgrade: 0
+  mHasRealisticTextures: 1
+  mPreview: {fileID: 1952612187}
+  mAutoValidationDataSetName: 
+--- !u!4 &1952612186
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952612183}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.02, y: 0, z: -4.02}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1918120471}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1952612187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952612183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1952612185}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: scorpion
+  mDatasetName: Vuforia/laVanilleWildLens.xml
+  mCastedBehaviour: {fileID: 1952612185}
+  mModelScale: {x: 0.09114601, y: 0.012752, z: 0.110247}
+  mModelTargetPreview: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -2073,5 +2223,5 @@ SceneRoots:
   - {fileID: 539386556}
   - {fileID: 819267041}
   - {fileID: 1367525481}
-  - {fileID: 1686598810}
-  - {fileID: 59114918}
+  - {fileID: 447654030}
+  - {fileID: 1952612186}
