@@ -15,4 +15,9 @@ public class ChangeScene : MonoBehaviour
         Application.Quit();
         Debug.Log("You have quit the app");
     }
+
+    public void LoadMenuScene()
+    {
+        SceneManager.LoadScene("MenuScene");
+    }
 }
