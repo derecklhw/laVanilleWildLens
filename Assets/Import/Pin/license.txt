@@ -1,0 +1,11 @@
+Model Information:
+* title:	CC0 - Pin 2
+* source:	https://sketchfab.com/3d-models/cc0-pin-2-4e7f37bee0674d569f558b0f08b7fdb7
+* author:	plaggy (https://sketchfab.com/plaggy)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "CC0 - Pin 2" (https://sketchfab.com/3d-models/cc0-pin-2-4e7f37bee0674d569f558b0f08b7fdb7) by plaggy (https://sketchfab.com/plaggy) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

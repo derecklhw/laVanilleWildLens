@@ -13,9 +13,17 @@ public class MultipleVB : MonoBehaviour
         waspGO.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnMouseDown()
     {
-        
+        Debug.Log(gameObject.name);
+        if (gameObject.name == "WaspHiveSphereCollider")
+        {
+            waspHiveGO.SetActive(true);
+            waspGO.SetActive(false);
+        } else if (gameObject.name == "WaspSphereCollider")
+        {
+            waspHiveGO.SetActive(false);
+            waspGO.SetActive(true);
+        }
     }
 }
