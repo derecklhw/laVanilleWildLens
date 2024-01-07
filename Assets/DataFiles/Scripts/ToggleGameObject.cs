@@ -14,7 +14,10 @@ public class ToggleGameObject : MonoBehaviour
         // Register the onClick event
         if (button && objectToToggle)
         {
-            objectToToggle.SetActive(false);
+            if (objectToToggle.name != "CrocodileObj")
+            {
+                objectToToggle.SetActive(false);
+            }
             button.onClick.AddListener(ToggleObject);
         }
         else
