@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
+    <ImageTarget name="Deer" size="1.000000 0.667480" />
+    <ImageTarget name="Moon" size="1.000000 0.625000" />
     <ImageTarget name="Butterfly" size="1.000000 0.666500" />
     <ImageTarget name="WaspHive" size="1.000000 0.666667" />
   </Tracking>

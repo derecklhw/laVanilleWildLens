@@ -1,0 +1,11 @@
+Model Information:
+* title:	Thorax
+* source:	https://sketchfab.com/3d-models/thorax-83d435a04aa945898161eae1a2a9cf04
+* author:	Team Skeleton Wars (https://sketchfab.com/skeletonwars)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Thorax" (https://sketchfab.com/3d-models/thorax-83d435a04aa945898161eae1a2a9cf04) by Team Skeleton Wars (https://sketchfab.com/skeletonwars) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
