@@ -2,6 +2,8 @@
 
 La Vanille Wild Lens is a prototype of an Augmented Reality mobile application built using an Augmented Reality development tool (Unity + Vuforia) to enhance the visiting experience at La Vanille Nature Park.
 
+![MenuScreen](images/MenuScreen.JPG)
+
 The application was developed on `MacOS Sonoma 14.2.1` and tested on an android device version 11.
 
 ## Technologies Used
@@ -31,3 +33,9 @@ Reference:
 
 1. <https://youtu.be/7n-1XCUgbfM>
 2. <https://youtu.be/yW3iLmn7IG8>
+
+## Screenshots
+
+![Crocodile](images/Crocodile.JPG)
+![Butterfly](images/Butterfly.JPG)
+![Wasp](images/Wasp.JPG)
