@@ -4,7 +4,7 @@ La Vanille Wild Lens is a prototype of an Augmented Reality mobile application b
 
 ![MenuScreen](images/MenuScreen.JPG)
 
-The application was developed on `MacOS Sonoma 14.2.1` and tested on an android device version 11.
+The application was developed on `MacOS Sonoma 14.2.1` and tested on an android device version `11`.
 
 ## Technologies Used
 
